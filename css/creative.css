@@ -11,6 +11,11 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 :root {
+  --olive: #003333;
+  --pinegreen:	#003300;
+  --darkgreen: #003333;
+  --mybrightblue: #44c9be;
+  --mydarkerblue: #318f87;
   --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
@@ -24,7 +29,6 @@
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #343a40;
-  --primary: #f4623a;
   --secondary: #6c757d;
   --success: #28a745;
   --info: #17a2b8;
@@ -159,13 +163,13 @@ sup {
 }
 
 a {
-  color: #f4623a;
+  color: #003333;
   text-decoration: none;
   background-color: transparent;
 }
 
 a:hover {
-  color: #d6370c;
+  color: #318f87;
   text-decoration: underline;
 }
 
@@ -2256,8 +2260,8 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #f4623a;
-  border-color: #f4623a;
+  background-color: #003333;
+  border-color: #003333;
 }
 
 .btn-primary:hover {
@@ -2266,14 +2270,26 @@ fieldset:disabled a.btn {
   border-color: #ee3e0d;
 }
 
+.btn-mygreens {
+  color: #fff;
+  background-color: #003333;
+  border-color: #003333;
+}
+
+.btn-mygreens:hover {
+  color: #fff;
+  background-color: #000000;
+  border-color: #000000;
+}
+
 .btn-primary:focus, .btn-primary.focus {
   box-shadow: 0 0 0 0.2rem rgba(246, 122, 88, 0.5);
 }
 
 .btn-primary.disabled, .btn-primary:disabled {
   color: #fff;
-  background-color: #f4623a;
-  border-color: #f4623a;
+  background-color: #003333;
+  border-color: #003333;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
@@ -2527,14 +2543,14 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-primary {
-  color: #f4623a;
-  border-color: #f4623a;
+  color: #003333;
+  border-color: #003333;
 }
 
 .btn-outline-primary:hover {
   color: #fff;
-  background-color: #f4623a;
-  border-color: #f4623a;
+  background-color: #003333;
+  border-color: #003333;
 }
 
 .btn-outline-primary:focus, .btn-outline-primary.focus {
@@ -2542,15 +2558,15 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-primary.disabled, .btn-outline-primary:disabled {
-  color: #f4623a;
+  color: #003333;
   background-color: transparent;
 }
 
 .btn-outline-primary:not(:disabled):not(.disabled):active, .btn-outline-primary:not(:disabled):not(.disabled).active,
 .show > .btn-outline-primary.dropdown-toggle {
   color: #fff;
-  background-color: #f4623a;
-  border-color: #f4623a;
+  background-color: #003333;
+  border-color: #003333;
 }
 
 .btn-outline-primary:not(:disabled):not(.disabled):active:focus, .btn-outline-primary:not(:disabled):not(.disabled).active:focus,
@@ -2784,7 +2800,7 @@ fieldset:disabled a.btn {
 
 .btn-link {
   font-weight: 400;
-  color: #f4623a;
+  color: #003333;
   text-decoration: none;
 }
 
@@ -3083,7 +3099,7 @@ input[type="button"].btn-block {
 .dropdown-item.active, .dropdown-item:active {
   color: #fff;
   text-decoration: none;
-  background-color: #f4623a;
+  background-color: #003333;
 }
 
 .dropdown-item.disabled, .dropdown-item:disabled {
@@ -3436,8 +3452,8 @@ input[type="button"].btn-block {
 
 .custom-control-input:checked ~ .custom-control-label::before {
   color: #fff;
-  border-color: #f4623a;
-  background-color: #f4623a;
+  border-color: #003333;
+  background-color: #003333;
 }
 
 .custom-control-input:focus ~ .custom-control-label::before {
@@ -3501,8 +3517,8 @@ input[type="button"].btn-block {
 }
 
 .custom-checkbox .custom-control-input:indeterminate ~ .custom-control-label::before {
-  border-color: #f4623a;
-  background-color: #f4623a;
+  border-color: #003333;
+  background-color: #003333;
 }
 
 .custom-checkbox .custom-control-input:indeterminate ~ .custom-control-label::after {
@@ -3727,7 +3743,7 @@ input[type="button"].btn-block {
   width: 1rem;
   height: 1rem;
   margin-top: -0.25rem;
-  background-color: #f4623a;
+  background-color: #003333;
   border: 0;
   border-radius: 1rem;
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -3758,7 +3774,7 @@ input[type="button"].btn-block {
 .custom-range::-moz-range-thumb {
   width: 1rem;
   height: 1rem;
-  background-color: #f4623a;
+  background-color: #003333;
   border: 0;
   border-radius: 1rem;
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -3792,7 +3808,7 @@ input[type="button"].btn-block {
   margin-top: 0;
   margin-right: 0.2rem;
   margin-left: 0.2rem;
-  background-color: #f4623a;
+  background-color: #003333;
   border: 0;
   border-radius: 1rem;
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -3931,7 +3947,7 @@ input[type="button"].btn-block {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #f4623a;
+  background-color: #003333;
 }
 
 .nav-fill .nav-item {
@@ -4596,7 +4612,7 @@ input[type="button"].btn-block {
   padding: 0.5rem 0.75rem;
   margin-left: -1px;
   line-height: 1.25;
-  color: #f4623a;
+  color: #003333;
   background-color: #fff;
   border: 1px solid #dee2e6;
 }
@@ -4629,8 +4645,8 @@ input[type="button"].btn-block {
 .page-item.active .page-link {
   z-index: 1;
   color: #fff;
-  background-color: #f4623a;
-  border-color: #f4623a;
+  background-color: #003333;
+  border-color: #003333;
 }
 
 .page-item.disabled .page-link {
@@ -4713,7 +4729,7 @@ a.badge:hover, a.badge:focus {
 
 .badge-primary {
   color: #fff;
-  background-color: #f4623a;
+  background-color: #003333;
 }
 
 a.badge-primary:hover, a.badge-primary:focus {
@@ -5024,7 +5040,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   color: #fff;
   text-align: center;
   white-space: nowrap;
-  background-color: #f4623a;
+  background-color: #003333;
   transition: width 0.6s ease;
 }
 
@@ -5114,8 +5130,8 @@ a.badge-dark:focus, a.badge-dark.focus {
 .list-group-item.active {
   z-index: 2;
   color: #fff;
-  background-color: #f4623a;
-  border-color: #f4623a;
+  background-color: #003333;
+  border-color: #003333;
 }
 
 .list-group-horizontal {
@@ -6205,7 +6221,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #f4623a !important;
+  background-color: #ffffff !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -6333,7 +6349,7 @@ button.bg-dark:focus {
 }
 
 .border-primary {
-  border-color: #f4623a !important;
+  border-color: #003333 !important;
 }
 
 .border-secondary {
@@ -7448,6 +7464,8 @@ button.bg-dark:focus {
   margin-bottom: 0 !important;
 }
 
+/* my-4 aura donc une margin de 1,5rem en haut ET en bas */
+
 .ml-0,
 .mx-0 {
   margin-left: 0 !important;
@@ -7700,6 +7718,16 @@ button.bg-dark:focus {
 .pt-5,
 .py-5 {
   padding-top: 3rem !important;
+}
+
+.pt-10,
+.py-10 {
+  padding-top: 6rem !important;
+}
+
+.pt-15,
+.py-15 {
+  padding-top: 9rem !important;
 }
 
 .pr-5,
@@ -9364,7 +9392,15 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #f4623a !important;
+  color: #003333 !important;
+}
+
+.text-darkgreen {
+  color: #003333 !important;
+}
+
+.text-olive {
+  color: #003333 !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -9441,6 +9477,14 @@ a.text-dark:hover, a.text-dark:focus {
 
 .text-white-50 {
   color: rgba(255, 255, 255, 0.5) !important;
+}
+
+.text-white-90 {
+  color: rgba(255, 255, 255, 0.9) !important;
+}
+
+.text-white-95 {
+  color: rgba(255, 255, 255, 0.95) !important;
 }
 
 .text-hide {
@@ -9564,7 +9608,7 @@ html {
 hr.divider {
   max-width: 3.25rem;
   border-width: 0.2rem;
-  border-color: #f4623a;
+  border-color: #003333;
 }
 
 hr.light {
@@ -9585,7 +9629,7 @@ hr.light {
 }
 
 .page-section {
-  padding: 8rem 0;
+  padding: 4rem /* 8rem */ 0;
 }
 
 #mainNav {
@@ -9609,11 +9653,11 @@ hr.light {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link:hover, #mainNav .navbar-nav .nav-item .nav-link:active {
-  color: #f4623a;
+  color: #003333;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active {
-  color: #f4623a !important;
+  color: #003333 !important;
 }
 
 @media (min-width: 992px) {
@@ -9645,20 +9689,68 @@ hr.light {
     color: #212529;
   }
   #mainNav.navbar-scrolled .navbar-brand:hover {
-    color: #f4623a;
+    color: #003333;
   }
   #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link {
     color: #212529;
   }
   #mainNav.navbar-scrolled .navbar-nav .nav-item .nav-link:hover {
-    color: #f4623a;
+    color: #003333;
   }
 }
+
+
+header.masthead-home {
+  /* An em value is calculated against the font-size of a current element,
+  so boxes sized with it will consequently scale as font sizes are adjusted by the element or its ancestors.
+  Meanwhile, rem is defined as the font-size of the root element. */
+  padding-top: 10rem;
+  padding-bottom: calc(10rem - 72px);
+
+/* Ci-dessous on peut ajouter un "voile" par dessus l'image d'en-tête :
+pour un voile couleur brune, remplacer la ligne ci-dessous par :
+background: linear-gradient(to bottom,rgba(92,77,66,.8) 0,rgba(92,77,66,.8) 100%),url(../img/bg-masthead.jpg);
+RGBA color values are an extension of RGB color values with an alpha channel - which specifies the opacity of the color.
+A l'intérieur du linear-gradient, la première valeur correspond au haut de l'image */
+  background: linear-gradient(to bottom,rgba(0,0,0,.2) 0,rgba(0,0,0,0.2) 100%), url(../img/bg-masthead-7.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+
+header.masthead-home h1 {
+  font-size: 2.25rem;
+}
+
+@media (min-width: 992px) {
+  header.masthead-home {
+    height: 100vh;
+    min-height: 10rem;
+    padding-top: 22px;
+    padding-bottom: 0;
+  }
+  header.masthead-home p {
+/* What's below is the size for the small text (ex: "Hello, I'm Lauriane and I want to tell your story") */
+    font-size: 1.15rem;
+  }
+  header.masthead-home h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  header.masthead-home h1 {
+/* Below decides the size of the title of the header (ex: "MARKETING COMMUNICATIONS") */
+    font-size: 2.5rem;
+  }
+}
+
 
 header.masthead {
   padding-top: 10rem;
   padding-bottom: calc(10rem - 72px);
-  background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../img/bg-masthead.jpg");
+  background: linear-gradient(to bottom,rgba(0,0,0,.2) 0,rgba(0,0,0,0.2) 100%), url(../img/bg-masthead-7.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -9671,12 +9763,13 @@ header.masthead h1 {
 
 @media (min-width: 992px) {
   header.masthead {
-    height: 100vh;
-    min-height: 40rem;
-    padding-top: 72px;
+    height: 60vh;
+    min-height: 10rem;
+    padding-top: 22px;
     padding-bottom: 0;
   }
   header.masthead p {
+/* What's below is the size for the small text (ex: "Hello, I'm Lauriane and I want to tell your story") */
     font-size: 1.15rem;
   }
   header.masthead h1 {
@@ -9686,9 +9779,192 @@ header.masthead h1 {
 
 @media (min-width: 1200px) {
   header.masthead h1 {
-    font-size: 3.5rem;
+/* Below decides the size of the title of the header (ex: "MARKETING COMMUNICATIONS") */
+    font-size: 2.5rem;
   }
 }
+
+
+
+
+/* Ci-dessous est le code de "AGENCY" pour le portfolio */
+#portfolio .portfolio-item {
+  /* POUR SUPPRIMER L'ECART ENTRE LES PHOTOS, supprimer les DEUX lignes suivantes */
+  right: 0;
+  margin: 0 0 15px;
+  max-width: 1920px;
+}
+
+#portfolio .portfolio-item .portfolio-link {
+  /* garder les 2 lignes ci-dessous pour que le "voile" de couleur ne dépasse pas sur la droite du rectangle */
+  position: relative;
+  display: block;
+  max-width: 400px;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transition: all ease 0.5s;
+  opacity: 0;
+  background: rgba(254, 209, 54, 0.9);
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
+  opacity: 1;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+/*  font-size: 20px; */
+/* début ajout */
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+/* fin ajout */
+  position: absolute;
+  /*  ce qui suit a été supprimé pour que le contenu soit centré dans le rectangle   top: 50%; */
+  width: 100%;
+  height: 100% /* 20px */;
+  margin-top: -12px;
+  text-align: center;
+  color: white;
+}
+
+/* essai pr format texte hoover */
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content .project-category {
+  font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content .project-name {
+  font-size: 1.2rem;
+}
+
+
+/* The HTML <i> tag is used for specifying text in an alternate voice or mood, or otherwise offset from the normal prose.
+In earlier versions of HTML, the <i> tag was typically used solely for rendering text in italics, however, this is not necessarily the case with HTML 5. Style sheets can be used to format this text (just like any other element). */
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+  margin-top: -12px;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
+  margin: 0;
+}
+
+#portfolio .portfolio-item .portfolio-caption {
+  /* POUR SUPPRIMER L'ECART ENTRE LES PHOTOS, supprimer la ligne ci-dessous */
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 25px;
+  text-align: center;
+  background-color: #fff;
+}
+
+#portfolio .portfolio-item .portfolio-caption h4 {
+  margin: 0;
+  text-transform: none;
+}
+
+#portfolio .portfolio-item .portfolio-caption p {
+  font-size: 16px;
+  font-style: italic;
+  margin: 0;
+  font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+#portfolio * {
+  z-index: 2;
+}
+
+/* POUR SUPPRIMER L'espace entre les 2 rangées de photos du portfolio, supprimer les CINQ lignes suivantes */
+@media (min-width: 767px) {
+  #portfolio .portfolio-item {
+    margin: 0 0 30px;
+  }
+}
+
+.portfolio-modal .modal-dialog {
+  margin: 1rem;
+  max-width: 100vw;
+}
+
+.portfolio-modal .modal-content {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.portfolio-modal .modal-content h2 {
+  font-size: 3em;
+  margin-bottom: 15px;
+}
+
+.portfolio-modal .modal-content p {
+  margin-bottom: 30px;
+}
+
+.portfolio-modal .modal-content p.item-intro {
+  font-size: 16px;
+  font-style: italic;
+  margin: 20px 0 30px;
+  font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+.portfolio-modal .modal-content ul.list-inline {
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.portfolio-modal .modal-content img {
+  margin-bottom: 30px;
+}
+
+.portfolio-modal .modal-content button {
+  cursor: pointer;
+}
+
+.portfolio-modal .close-modal {
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  width: 75px;
+  height: 75px;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.portfolio-modal .close-modal:hover {
+  opacity: 0.3;
+}
+
+.portfolio-modal .close-modal .lr {
+  /* Safari and Chrome */
+  z-index: 1051;
+  width: 1px;
+  height: 75px;
+  margin-left: 35px;
+  /* IE 9 */
+  transform: rotate(45deg);
+  background-color: #212529;
+}
+
+.portfolio-modal .close-modal .lr .rl {
+  /* Safari and Chrome */
+  z-index: 1052;
+  width: 1px;
+  height: 75px;
+  /* IE 9 */
+  transform: rotate(90deg);
+  background-color: #212529;
+
+/* Ci-dessous est le code de "Creative" pour le portfolio */
 
 #portfolio .container-fluid {
   max-width: 1920px;
@@ -9710,8 +9986,9 @@ header.masthead h1 {
   bottom: 0;
   text-align: center;
   opacity: 0;
-  color: #fff;
-  background: rgba(244, 98, 58, 0.9);
+  color: #fff;*/
+/* ci-dessous : background: rgba(244, 98, 58, 0.9); */
+  background: rgba(255, 255, 255, 0.9);
   transition: opacity 0.25s ease;
   text-align: center;
 }

@@ -39,20 +39,22 @@
   // Collapse the navbar when page is scrolled
   $(window).scroll(navbarCollapse);
 
-  // Magnific popup calls
-  $('#portfolio').magnificPopup({
-    delegate: 'a',
-    type: 'image',
-    tLoading: 'Loading image #%curr%...',
-    mainClass: 'mfp-img-mobile',
-    gallery: {
-      enabled: true,
-      navigateByImgClick: true,
-      preload: [0, 1]
-    },
-    image: {
-      tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
-    }
-  });
+
+
+  // Magnific popup calls - DELETED IN creative.min.js WHEN ENABLING THE "AGENCY" PORTFOLIO SO IT STOPS DISPALYING "img xx could not be displayed"
+//  $('#portfolio').magnificPopup({
+//    delegate: 'a',
+//    type: 'image',
+//    tLoading: 'Loading image #%curr%...',
+//    mainClass: 'mfp-img-mobile',
+//    gallery: {
+//      enabled: true,
+//      navigateByImgClick: true,
+//      preload: [0, 1]
+//    },
+//    image: {
+//      tError: '<a href="%url%">The image #%curr%</a> could not be loaded.'
+//    }
+//  });
 
 })(jQuery); // End of use strict

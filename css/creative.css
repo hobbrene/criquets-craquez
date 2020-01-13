@@ -14,6 +14,7 @@
   --olive: #003333;
   --pinegreen:	#003300;
   --darkgreen: #003333;
+  --lessdarkgreen: #336666;
   --mybrightblue: #44c9be;
   --mydarkerblue: #318f87;
   --blue: #007bff;
@@ -163,15 +164,17 @@ sup {
 }
 
 a {
-  color: #003333;
+  color: inherit;
   text-decoration: none;
   background-color: transparent;
 }
 
 a:hover {
-  color: #318f87;
+  color: #336666;
   text-decoration: underline;
 }
+
+
 
 a:not([href]):not([tabindex]) {
   color: inherit;
@@ -2272,14 +2275,14 @@ fieldset:disabled a.btn {
 
 .btn-mygreens {
   color: #fff;
-  background-color: #003333;
-  border-color: #003333;
+  background-color: #336666;
+  border-color: #336666;
 }
 
 .btn-mygreens:hover {
   color: #fff;
-  background-color: #000000;
-  border-color: #000000;
+  background-color: #003333;
+  border-color: #003333;
 }
 
 .btn-primary:focus, .btn-primary.focus {
@@ -3074,7 +3077,7 @@ input[type="button"].btn-block {
   height: 0;
   margin: 0.5rem 0;
   overflow: hidden;
-  border-top: 1px solid #e9ecef;
+  border-top: 1px solid #336666;
 }
 
 .dropdown-item {
@@ -9399,6 +9402,10 @@ button.bg-dark:focus {
   color: #003333 !important;
 }
 
+.text-lessdarkgreen {
+  color: #336666 !important;
+}
+
 .text-olive {
   color: #003333 !important;
 }
@@ -9469,6 +9476,10 @@ a.text-dark:hover, a.text-dark:focus {
 
 .text-muted {
   color: #6c757d !important;
+}
+
+.text-black {
+  color: rgba(0, 0, 0) !important;
 }
 
 .text-black-50 {
@@ -9608,7 +9619,13 @@ html {
 hr.divider {
   max-width: 3.25rem;
   border-width: 0.2rem;
-  border-color: #003333;
+  border-color: #336666;
+}
+
+hr.divider-transparent {
+  max-width: 3.25rem;
+  border-width: 0.2rem;
+  border-color: transparent;
 }
 
 hr.light {
@@ -9810,7 +9827,7 @@ header.masthead h1 {
   height: 100%;
   transition: all ease 0.5s;
   opacity: 0;
-  background: rgba(254, 209, 54, 0.9);
+  background: rgba(52, 58, 64, 0.6);
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
